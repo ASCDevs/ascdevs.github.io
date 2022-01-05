@@ -18,7 +18,7 @@
     --big-font-size: 1.25rem; /*20px*/
     
     --h1-font-size: 2.25rem; /*36px*/
-    --h2-font-size: 1.875; /*30px*/
+    --h2-font-size: 1.875rem; /*30px*/
     --h3-font-size: 1.5rem; /*24px*/
 
 }
@@ -45,18 +45,56 @@ img{
     height: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Layout */
 .container{
     max-width: 768px;
+    width: 100%;
+    padding: 0 .7rem;
+}
+main{
+
+    justify-content: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
 }
 
-main{
+.grid{
+    display: grid;
+    gap: .5rem;
 }
 
 /* Presentation */
+
+.presentation__container{
+    background-color: #ffe0de;
+    
+}
+.presentation__socials{
+    background-color: #ffc8c4;
+    display: flex;
+    flex-direction: column;
+}
+.presentation__photo{
+    background-color: #ffa59e;
+}
+.presentation__description{
+    background-color: #ff7e75;
+}
+
+
 .presentation__description{
     color: var(--text-white);
 }
 .presentation__office{
     font-size: var(--small-font-size);
+}
+.presentation__social-icon{
+    color: var(--text-white);
+    font-size: var(--h2-font-size)
 }
