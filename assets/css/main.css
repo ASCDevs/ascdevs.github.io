@@ -80,22 +80,21 @@ main{
 
 /* Presentation */
 .presentation{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .presentation__container{
     /* background-color: #ffe0de; */
-    grid-template-columns: auto auto;
-    /* justify-content: space-between; */
-    height: 400px;
-
+    grid-template-columns: auto 1fr;
 }
 .presentation__socials{
     /* background-color: #ffc8c4; */
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-direction: column;
 }
 .presentation__photo{
+    display: flex;
+    justify-content: flex-end;
     /* background-color: #ffa59e; */
 }
 .presentation__blob{
@@ -105,10 +104,8 @@ main{
 .presentation__description{
     /* background-color: #ff7e75; */
     grid-column: 1 / span 2;
-    grid-row:
+    grid-row: 2;
 }
-
-
 
 .presentation__description{
     color: var(--text-white);
@@ -135,6 +132,8 @@ main{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    
+    
 }
 .about__description{
     background: radial-gradient(139.15% 189.17% at -24.2% -2.9%, rgba(142, 142, 142, 0.73) 0%, rgba(44, 44, 44, 0.15) 100%);
