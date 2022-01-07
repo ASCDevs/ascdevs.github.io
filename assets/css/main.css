@@ -84,11 +84,13 @@ main{
 }
 .presentation__container{
     /* background-color: #ffe0de; */
+
     grid-template-columns: auto 1fr;
 }
 .presentation__socials{
     /* background-color: #ffc8c4; */
     display:flex;
+
     justify-content: center;
     flex-direction: column;
 }
@@ -106,6 +108,7 @@ main{
     grid-column: 1 / span 2;
     grid-row: 2;
 }
+
 
 .presentation__description{
     color: var(--text-white);
