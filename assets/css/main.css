@@ -108,8 +108,6 @@ main{
     grid-column: 1 / span 2;
     grid-row: 2;
 }
-
-
 .presentation__description{
     color: var(--text-white);
     display: flex;
